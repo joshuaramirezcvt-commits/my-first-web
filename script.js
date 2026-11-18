@@ -1,3 +1,8 @@
-document.querySelector('h1').addEventListener('click', () => {
-    alert('You clicked the heading! 🎉');
-});
+function showPicture() {
+    const pic = document.getElementById('surprisePicture');
+    if (pic.style.display === 'none') {
+        pic.style.display = 'block';
+    } else {
+        pic.style.display = 'none';
+    }
+}
